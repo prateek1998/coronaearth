@@ -1,0 +1,168 @@
+/* .App {
+  /* text-align: center; */
+*/ .loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 4rem;
+}
+
+.dhruv10:hover {
+  text-decoration: underline;
+}
+
+.pb-20 {
+  padding: 20px 0;
+}
+
+.card {
+  box-shadow: 0px 0.5px 50px rgba(2, 2, 2, 0.05) !important;
+  border-radius: 10px;
+}
+
+.card-header {
+  box-shadow: none !important;
+  background-color: #fee8e7;
+}
+
+.br-rd-top {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.br-rd-btm {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.p-c-10 > li {
+  padding: 5px 0;
+}
+
+.is-selected {
+  background-color: #e4e6f8;
+  color: #363636;
+  border-right: solid 5px #5352ed;
+  box-shadow: 0px 0.5px 50px rgba(2, 2, 2, 0.05);
+}
+
+.card-header-title {
+  justify-content: space-around;
+}
+
+.is-selected-tab {
+  border-top: solid 2.5px #f14568;
+}
+
+.is-selected-tab-b {
+  border-bottom: solid #f14568 2.5px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+}
+
+.title {
+  font-family: 500;
+  margin-bottom: 0 !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.sidebar {
+  height: 100%;
+  padding: 20px;
+  width: 350px;
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  /* opacity: 0.75; */
+  transition: transform 1s;
+}
+
+.open-sidebar {
+  transform: translateX(-350px);
+}
+
+.scene-tooltip {
+  background-color: #000;
+  opacity: 0.75;
+  padding: 10px;
+  font-weight: 500 !important;
+}
+
+.tooltip-key {
+  font-weight: 500;
+  color: gray;
+}
+
+.scrollable {
+  overflow-y: scroll;
+  height: 235px;
+}
+
+/* .line-height {
+  /* line-height: 27px; */
+*/ .pt-10 {
+  padding-top: 10px;
+}
+
+.legend {
+  z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+
+.legend-text {
+  z-index: 1;
+  position: absolute;
+  bottom: 35px;
+  right: 20px;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+
+.tooltip-value {
+  font-weight: 500;
+  color: white;
+}
+
+.menu-icon {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  border-radius: 8rem;
+  width: 3rem;
+  height: 3rem;
+  outline: none;
+  z-index: 2;
+  box-shadow: 0px 0.5px 50px rgba(2, 2, 2, 0.05);
+}
+
+/* position: absolute;
+    right: 0;
+    top: 0;
+    width: 350px;
+    height: 100vh;
+    background: transparent;
+    transition: margin-right 0.3s;
+    margin-right: -350px; */
+
+@media only screen and (max-width: 600px) {
+  .sidebar-body {
+    overflow-y: scroll;
+    height: 80vh;
+  }
+  .scene-tooltip {
+    min-width: 300px;
+  }
+}
