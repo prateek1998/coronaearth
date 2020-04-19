@@ -1,8 +1,6 @@
-.App {
+/* .App {
   /* text-align: center; */
-}
-
-.loader {
+*/ .loader {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -31,10 +29,7 @@
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
-h1 {
-  color: white;
-  font-size: 200%;
-}
+
 .br-rd-btm {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -111,11 +106,9 @@ h1 {
   height: 235px;
 }
 
-.line-height {
+/* .line-height {
   /* line-height: 27px; */
-}
-
-.pt-10 {
+*/ .pt-10 {
   padding-top: 10px;
 }
 
