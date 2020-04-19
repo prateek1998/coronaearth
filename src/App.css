@@ -11,6 +11,10 @@
   text-decoration: underline;
 }
 
+h1 {
+  color: white;
+  font-size: 200%;
+}
 .pb-20 {
   padding: 20px 0;
 }
