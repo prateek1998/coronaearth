@@ -6,14 +6,12 @@ import "./App.css";
 import Globe from "./components/Globe";
 import numberWithCommas from "./helper";
 
-import { constants } from "./constants";
-
 const App = () => {
   const [worldCoronaData, updateData] = useState([]);
   const [isLoading, loadingStatus] = useState(true);
 
   useEffect(() => {
-    fetch(constants.allCountries)
+    fetch("https://corona.lmao.ninja/v2/countries")
       .then((res) => res.json())
       .then((data) => {
         updateData(data);
@@ -34,14 +32,13 @@ const App = () => {
       <section>
         <Globe data={worldCoronaData} />
         <div className="legend-text">
-          {/* <span>0</span> */}
-          <span>Developed By:</span>
-          {/* <span>{numberWithCommas(worldCoronaData[0].cases)}</span> */}
+          <span>0</span>
+          <span>Legend (active cases)</span>
+          <span>{numberWithCommas(worldCoronaData[0].cases)}</span>
         </div>
         <div className="observablehq legend" dir="auto">
           <span>
-            <h1>Team FourBit</h1>
-            {/* <svg
+            <svg
               viewBox="0 0 10 1"
               style={{
                 display: "block",
@@ -63,7 +60,7 @@ const App = () => {
               <rect x="7" width="1" height="1" fill="#d91620"></rect>
               <rect x="8" width="1" height="1" fill="#b40325"></rect>
               <rect x="9" width="1" height="1" fill="#800026"></rect>
-            </svg> */}
+            </svg>
           </span>
         </div>
       </section>
