@@ -34,7 +34,7 @@ const App = () => {
         <div className="legend-text">
  {/* <span>0</span> */}
           <span>Developed By:</span>
-          <span>{numberWithCommas(worldCoronaData[0].cases)}</span>
+    {/* <span>{numberWithCommas(worldCoronaData[0].cases)}</span>*/}
         </div>
         <div className="observablehq legend" dir="auto">
           <span>
