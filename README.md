@@ -5,4 +5,4 @@ to run this
 2. run using npm install
 3. npm start
 
-checkout using https://www.coronaearth.netlify.app
+checkout using https://coronaearth.netlify.app
