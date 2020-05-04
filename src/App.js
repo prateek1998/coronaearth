@@ -33,12 +33,12 @@ const App = () => {
         <Globe data={worldCoronaData} />
         <div className="legend-text">
  {/* <span>0</span> */}
-    /*      <span>Developed By:</span>*/
+    <!--<span>developed By:</span>-->
     {/* <span>{numberWithCommas(worldCoronaData[0].cases)}</span>*/}
         </div>
         <div className="observablehq legend" dir="auto">
           <span>
-          /* <h1>Team FourBit</h1>*/
+          <!--<h1>Team FourBit</h1>-->
             {/* <svg
               viewBox="0 0 10 1"
               style={{
