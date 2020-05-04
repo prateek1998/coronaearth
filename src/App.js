@@ -38,7 +38,7 @@ const App = () => {
         </div>
         <div className="observablehq legend" dir="auto">
           <span>
-          /* <h1>Team FourBit</h>*/
+          /* <h1>Team FourBit</h1>*/
             {/* <svg
               viewBox="0 0 10 1"
               style={{
